@@ -1,12 +1,12 @@
 name: Check and Build
 
 env:
-  kernel_repository: PixelExperience-Devices/kernel_xiaomi_sdm845
-  kernel_branch: fourteen
-  device: dipper
-  clang_version: r487747c
+  kernel_repository: LMWYY/android_xiaomi_kernel_grus
+  kernel_branch: grus-r
+  device: grus
+  clang_version: r365631c
   defconfig: |
-    dipper_defconfig
+    grus_defconfig
   kernel_patch: |
     backport-path-umount.patch
   kernelsu_patch: |
