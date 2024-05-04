@@ -1,12 +1,12 @@
 name: Check and Build
 
 env:
-  kernel_repository: LMWYY/android_xiaomi_kernel_grus
-  kernel_branch: grus-r
-  device: grus
+  kernel_repository: LMWYY/android_kernel_xiaomi_sdm660_southwest
+  kernel_branch: 11.0-eas-wifi-p
+  device: clover
   clang_version: r365631c
   defconfig: |
-    grus_defconfig
+    clover_defconfig
   kernel_patch: |
   kernelsu_patch: |
 
